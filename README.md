@@ -45,6 +45,6 @@ The current "demo" is made from MDF, plywood and masonite:
 
 
 ```
-(\/) (°,,,,°) (\/)
+(\/) (;,,;) (\/)
 WHY NOT ZOIDBERG?
 ```
