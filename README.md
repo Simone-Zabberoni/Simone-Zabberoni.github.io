@@ -24,13 +24,18 @@ System/Network admin with some coding skills (at least I hope so!)
 
 ### Complete the zabbix tree maker project
 It's a python + etetoolkit script set for bulk insert and hierarchical creation of maps, screen, IT services, dependancies.
-It works quite well but it needs lots of improvements (error checking, parametrization of hardcoded files, override behavoir etc)
+
+It works quite well but it needs lots of improvements (error checking, parametrization of hardcoded files, override behavoir etc).
+
 Contact me directly if interested
 
 ### Complete the "Table periodic table"
 Exactly what says on the tin: it's a table based on the period table of elements. 
+
 It will be made of 3 layers of different wood (base, plaques and letters), each layer cut off with a [High Z s1000 CNC](http://www.cnc-router-store.com/products/t-series-high-quality-ball-screws/high-z-s-1000t-cnc-router-cnc-engraver-1000-x-600-x-110-mm-ball-screws/)
+
 The current "demo" is made from MDF, plywood and masonite:
+
 ![screen3](http://www.facciocose.eu/wp-content/uploads/Screenshot_3.png)
 
 
