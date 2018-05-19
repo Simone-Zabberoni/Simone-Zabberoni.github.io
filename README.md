@@ -2,7 +2,7 @@
 
 ## whoami
 
-System/Network admin with some coding skills (at least I hope so!)
+IT project manager & System engineer with some coding skills (at least I hope so!)
 
 
 ## contacts 
@@ -13,11 +13,12 @@ System/Network admin with some coding skills (at least I hope so!)
 
 ## projects and links
 
-- [GitHub](https://github.com/Simone-Zabberoni) for the complete repo list
+- [Zabbix Python Utilities](https://github.com/Simone-Zabberoni/zabbix-python-utils) for bulk load, bulk modification, json lld and more
+- [Trello Reporting Tool](http://trello-vue-report.s3-website-eu-west-1.amazonaws.com), my trello converter from board to readable version. VueJS version (MVVM). Source code [here](https://github.com/Simone-Zabberoni/trello-vue-reporting)
 - Sophos XG [VPN Converter](https://simone-zabberoni.github.io/XgSSLVPNtoOpenVPN/XgSSLVPNtoOpenVPN.html), Javascript serverless with zip support
 - [Mean interface](http://www.facciocose.eu/particle-io-api-curl-e-nodejs/) for [Oak Devices](http://www.facciocose.eu/oak-by-digistump/) - *mostly in italian*
 - [the same project](https://github.com/Simone-Zabberoni/oak-mean) on Gihub, in English.
-- useful sysadmin [snips and commands](https://github.com/Simone-Zabberoni/misc-one-liners)
+- useful sysadmin [snips and commands](https://github.com/Simone-Zabberoni/misc-one-liners) 
 - unsorted misc [bookmarks](http://www.facciocose.eu/useful-links/) 
 
 ## future projects / todo list
