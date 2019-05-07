@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <!-- saved from url=(0056)http://gildas-lormeau.github.io/zip.js/demos/demo1.html# -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Sophos XG APC SSL Vpn format converter</title>
-<link rel="stylesheet" href="XgSSLVPNtoOpenVPN.css">
-<link href='https://fonts.googleapis.com/css?family=Maven+Pro|Muli|Droid+Sans+Mono|Istok+Web' rel='stylesheet' type='text/css'>
-</head>
+    <title>Sophos XG APC SSL Vpn format converter</title>
+    <link rel="stylesheet" href="XgSSLVPNtoOpenVPN.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Maven+Pro|Muli|Droid+Sans+Mono|Istok+Web"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-<body>
-	<div id="container">
-		<h1>Sophos XG SSL Vpn format converter</h1>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139859063-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-		<div class="description">
-			Convert Sophos XG .apc file to OpenVPN Format
-			<hr>
-		</div>
+      gtag("config", "UA-139859063-1");
+    </script>
+  </head>
 
+  <body>
+    <div id="container">
+      <h1>Sophos XG SSL Vpn format converter</h1>
 
-		<label>
-			<span class="form-label">Load XG APC file</span>
-			<input id="fileApc" type="file" >
-			<hr>
-		</label>
+      <div class="description">
+        Convert Sophos XG .apc file to OpenVPN Format
+        <hr />
+      </div>
 
-		<label>
-			<span class="form-label">RAW File content</span>
-			<textarea id="fileApcContent" type="text" ></textarea>
-		</label>
+      <label>
+        <span class="form-label">Load XG APC file</span>
+        <input id="fileApc" type="file" />
+        <hr />
+      </label>
 
-		<label>
-			<span class="form-label">CA Certificate file</span>
-			<textarea id="certCA" type="text" class="cfgTextarea" ></textarea>
-		</label>
+      <label>
+        <span class="form-label">RAW File content</span>
+        <textarea id="fileApcContent" type="text"></textarea>
+      </label>
 
-		<label>
-			<span class="form-label">VPN Certificate file</span>
-			<textarea id="certFile" type="text" class="cfgTextarea" ></textarea>
-		</label>
+      <label>
+        <span class="form-label">CA Certificate file</span>
+        <textarea id="certCA" type="text" class="cfgTextarea"></textarea>
+      </label>
 
-		<label>
-			<span class="form-label">Key file</span>
-			<textarea id="keyFile" type="text" class="cfgTextarea" ></textarea>
-		</label>
+      <label>
+        <span class="form-label">VPN Certificate file</span>
+        <textarea id="certFile" type="text" class="cfgTextarea"></textarea>
+      </label>
 
-		<label>
-			<span class="form-label">Authentication file</span>
-			<textarea id="authFile" type="text" class="cfgTextarea" ></textarea>
-		</label>
+      <label>
+        <span class="form-label">Key file</span>
+        <textarea id="keyFile" type="text" class="cfgTextarea"></textarea>
+      </label>
 
-		<label>
-			<span class="form-label">Configuration file</span>
-			<textarea id="cfgFile" type="text" class="cfgTextarea" ></textarea>
-		</label>
+      <label>
+        <span class="form-label">Authentication file</span>
+        <textarea id="authFile" type="text" class="cfgTextarea"></textarea>
+      </label>
 
-		<label>
-			<hr>
-			<a id="download-button" href="" download="">Download OpenVPN package</a>
-		</label>
-	</div>
+      <label>
+        <span class="form-label">Configuration file</span>
+        <textarea id="cfgFile" type="text" class="cfgTextarea"></textarea>
+      </label>
 
-	<script type="text/javascript" src="XgSSLVPNtoOpenVPN.js"></script>
-	<script type="text/javascript" src="jszip.js"></script>
+      <label>
+        <hr />
+        <a id="download-button" href="" download="">Download OpenVPN package</a>
+      </label>
+    </div>
 
-</body></html>
+    <script type="text/javascript" src="XgSSLVPNtoOpenVPN.js"></script>
+    <script type="text/javascript" src="jszip.js"></script>
+  </body>
+</html>
